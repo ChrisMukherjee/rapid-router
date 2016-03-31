@@ -103,6 +103,8 @@
   <script type="text/javascript" src="{% static 'game/js/saving.js' %}"></script>
   <script type="text/javascript" src="{% static 'game/js/game.js' %}"></script>
   <script type="text/javascript" src="{% static 'game/js/event.js' %}"></script>
+<!-- load scripts which are managed by Require.js -->
+  <script data-main="scripts/main" src="{% static 'game/js/require/build.optimised.js' %}"></script>
 
   <script type="text/javascript">
     $(function() {
